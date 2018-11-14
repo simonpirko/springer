@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/annspring/annspring.iml" filepath="$PROJECT_DIR$/annspring/annspring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xmlspring/xmlspring.iml" filepath="$PROJECT_DIR$/xmlspring/xmlspring.iml" />
+    </modules>
+  </component>
+</project>

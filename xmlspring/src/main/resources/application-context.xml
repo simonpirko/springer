@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Bean-->
+    <!--<context:property-placeholder location="app.properties"/>-->
+    <!--<bean id="robot" class="com.spring.entity.Robot" destroy-method="destroy">-->
+    <!--<property name="name" value="${robot.name}"/>-->
+    <!--<property name="age" value="${robot.age}"/>-->
+    <!--<property name="printable" ref="cannon"/>-->
+    <!--</bean>-->
+    <!--<bean id="cannon" class="com.spring.entity.Cannon"/>-->
+    <!--<bean id="runner" class="com.spring.entity.Runner" destroy-method="destroy">-->
+    <!--<property name="robot" ref="robot"/>-->
+    <!--</bean>-->
+
+    <!--AOP-->
+    <!--<bean id="main" class="com.spring.aop.MainJdbcXml">-->
+    <!--<property name="human" ref="human"/>-->
+    <!--<property name="humanProxy" ref="humanProxy"/>-->
+    <!--<property name="proxyFactory" ref="proxyFactory"/>-->
+    <!--</bean>-->
+    <!--<bean id="human" class="com.spring.aop.Human"/>-->
+    <!--<bean id="humanProxy" class="com.spring.aop.HumanProxy"/>-->
+    <!--<bean id="proxyFactory" class="org.springframework.aop.framework.ProxyFactory"/>-->
+
+    <!--Spring JDBC-->
+    <!--<context:property-placeholder location="jdbc.properties"/>-->
+    <jdbc:embedded-database id="dataSource" type="H2">
+        <!--<jdbc:script location=""/>-->
+        <!--<jdbc:script location=""/>-->
+    </jdbc:embedded-database>
+    <!--<jdbc:initialize-database>-->
+    <!--<jdbc:script location=""/>-->
+    <!--</jdbc:initialize-database>-->
+    <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"-->
+    <!--p:driverClassName="${jdbc.driverClassName}"-->
+    <!--p:url="${jdbc.url}"-->
+    <!--p:username="${jdbc.username}"-->
+    <!--p:password="${jdbc.password}"/>-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate" p:dataSource-ref="dataSource"/>
+    <bean id="jdbcContactDao" class="com.spring.jdbc.JdbcContactDao" p:jdbcTemplate-ref="jdbcTemplate"/>
+
+</beans>
