@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03161a43-2781-4283-8320-c410d85e0da5" name="Default Changelist" comment="" />
+    <list default="true" id="03161a43-2781-4283-8320-c410d85e0da5" name="Default Changelist" comment="init repo.">
+      <change afterPath="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/DataJpaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/entity/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Bender.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_11_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_14_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/annspring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/annspring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/app-conf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/entity/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/entity/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/hibernate/HibernateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/hibernate/HibernateMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/hibernate/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/hibernate/entity/Vip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/jdbc/JdbcContactDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/jdbc/MainJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/com/spring/jpa/MainJpa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/annspring/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/aop/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/aop/HumanProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/aop/MainAopXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/bean/MainBeanXml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/entity/Cannon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/entity/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/entity/Robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/entity/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/jdbc/JdbcContactDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlspring/target/classes/com/spring/jdbc/MainJdbcXml.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/xmlspring/target/" />
     <ignored path="$PROJECT_DIR$/annspring/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,9 +79,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -31,7 +98,7 @@
     <session id="1668792124">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="61" />
+          <entry key="project.closed" value="66" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.13" value="3" />
@@ -41,61 +108,66 @@
           <entry key="project.open.time.18" value="5" />
           <entry key="project.open.time.19" value="5" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="4" />
+          <entry key="project.open.time.20" value="5" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.24" value="5" />
           <entry key="project.open.time.25" value="4" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.28" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.32" value="3" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="63" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="2" />
-          <entry key="class" value="11" />
+          <entry key="class" value="13" />
+          <entry key="gitignore" value="26" />
           <entry key="groovy" value="1" />
-          <entry key="java" value="196" />
+          <entry key="java" value="236" />
           <entry key="properties" value="36" />
-          <entry key="xml" value="69" />
+          <entry key="xml" value="76" />
           <entry key="xsd" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="196" />
+          <entry key="CLASS" value="13" />
+          <entry key="Git file" value="26" />
+          <entry key="JAVA" value="236" />
           <entry key="Properties" value="36" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="71" />
+          <entry key="XML" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
+          <entry key="gitignore" value="68" />
           <entry key="groovy" value="5" />
-          <entry key="java" value="5402" />
+          <entry key="java" value="6513" />
           <entry key="properties" value="380" />
-          <entry key="txt" value="13" />
-          <entry key="xml" value="1404" />
+          <entry key="txt" value="133" />
+          <entry key="xml" value="1923" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5402" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="Git file" value="68" />
+          <entry key="JAVA" value="6511" />
+          <entry key="JPA QL" value="2" />
+          <entry key="PLAIN_TEXT" value="169" />
           <entry key="Properties" value="380" />
           <entry key="Scratch" value="5" />
-          <entry key="XML" value="1404" />
+          <entry key="XML" value="1923" />
         </counts>
       </usages-collector>
     </session>
@@ -104,21 +176,62 @@
     <favorites_list name="springer" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/DataJpaMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/MainJpa.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="56" column="64" lean-forward="true" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/entity/Human.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,9 +241,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -191,18 +304,27 @@
         <option value="$PROJECT_DIR$/xmlspring/pom.xml" />
         <option value="$PROJECT_DIR$/xmlspring/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/Main.java" />
-        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/bean/MainBean.java" />
         <option value="$PROJECT_DIR$/xmlspring/src/main/java/com/spring/jdbc/MainJdbcXml.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/Vip.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/entity/Vip.java" />
-        <option value="$PROJECT_DIR$/annspring/pom.xml" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/JdbcContactDao.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/MainJdbc.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/HibernateMain.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/HibernateDao.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/entity/User.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/entity/Person.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/bean/MainBean.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/services/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/annspring/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/annspring/.gitignore" />
         <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/MainJpa.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/Human.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/DataJpaMain.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanService.java" />
         <option value="$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/entity/Human.java" />
+        <option value="$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanRepository.java" />
       </list>
     </option>
   </component>
@@ -240,10 +362,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
-    <option name="width" value="850" />
-    <option name="height" value="745" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="440" />
+    <option name="width" value="1344" />
+    <option name="height" value="306" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -273,6 +396,9 @@
           </State>
           <State>
             <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>JPA</id>
           </State>
           <State>
             <id>Java</id>
@@ -307,19 +433,23 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Android</id>
+            <id>JpaQlInspection</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -367,14 +497,44 @@
               <item name="annspring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="datajpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annspring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="datajpa" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annspring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="datajpa" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annspring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,8 +543,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SearchEverywhereHistoryKey" value="String&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/annspring/.gitignore&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542192736681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542296521798" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/MyProjects/LOTOSHARE" />
@@ -393,7 +554,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16891891" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -407,7 +568,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HibernateMain">
+  <component name="RunManager" selected="Application.DataJpaMain">
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -470,51 +631,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="DataJpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.datajpa.DataJpaMain" />
+      <module name="annspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.datajpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HibernateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.hibernate.HibernateMain" />
       <module name="annspring" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.Main" />
-      <module name="annspring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.bean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainAopXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.aop.MainAopXml" />
-      <module name="xmlspring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.aop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainBeanXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.bean.MainBeanXml" />
-      <module name="xmlspring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -548,21 +683,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainJpa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.jpa.MainJpa" />
+      <module name="annspring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MainBeanXml" />
-      <item itemvalue="Application.MainAopXml" />
       <item itemvalue="Application.MainJdbc" />
       <item itemvalue="Application.MainJdbcXml" />
       <item itemvalue="Application.HibernateMain" />
+      <item itemvalue="Application.MainJpa" />
+      <item itemvalue="Application.DataJpaMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataJpaMain" />
+        <item itemvalue="Application.MainJpa" />
         <item itemvalue="Application.HibernateMain" />
         <item itemvalue="Application.MainJdbc" />
         <item itemvalue="Application.MainJdbcXml" />
-        <item itemvalue="Application.MainAopXml" />
-        <item itemvalue="Application.MainBeanXml" />
       </list>
     </recent_temporary>
   </component>
@@ -574,7 +721,7 @@
     <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\sipi7\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -645,7 +792,12 @@
       <workItem from="1542134053757" duration="1275000" />
       <workItem from="1542135468733" duration="444000" />
       <workItem from="1542135953671" duration="11053000" />
-      <workItem from="1542190452137" duration="2164000" />
+      <workItem from="1542190452137" duration="8456000" />
+      <workItem from="1542222943878" duration="12537000" />
+      <workItem from="1542238528965" duration="481000" />
+      <workItem from="1542239077638" duration="498000" />
+      <workItem from="1542277524948" duration="554000" />
+      <workItem from="1542292341643" duration="2828000" />
     </task>
     <task id="LOCAL-00001" summary="init repo.">
       <created>1542191479634</created>
@@ -668,11 +820,32 @@
       <option name="project" value="LOCAL" />
       <updated>1542192086253</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change app-conf.xml">
+      <created>1542193940846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542193940846</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added spring jpa impl. and configuration files. Update application conf.">
+      <created>1542231794856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542231794856</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update rep.">
+      <created>1542277772139</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542277772139</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165759000" />
+    <option name="totallyTimeSpent" value="188949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,12 +858,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6552239" visible="true" weight="0.20424597" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65123457" visible="true" weight="0.20058565" />
       <window_info id="Favorites" order="1" sideWeight="0.33024693" side_tool="true" weight="0.21785174" />
-      <window_info id="Structure" order="2" sideWeight="0.34477612" side_tool="true" visible="true" weight="0.20424597" />
+      <window_info id="Structure" order="2" sideWeight="0.34876543" side_tool="true" weight="0.17397882" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -698,15 +871,15 @@
       <window_info id="JRebel" order="7" side_tool="true" weight="0.32980332" />
       <window_info id="DB Browser" order="8" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32658958" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.81641793" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32537314" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8149254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969134" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Spring" order="6" weight="0.6492537" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32686567" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32537314" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32985073" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" weight="0.32973805" />
@@ -729,6 +902,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -736,87 +945,18 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/annspring" />
       <path value="$PROJECT_DIR$/xmlspring" />
-      <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="init repo." />
-    <option name="LAST_COMMIT_MESSAGE" value="init repo." />
+    <MESSAGE value="change app-conf.xml" />
+    <MESSAGE value="Added spring jpa impl. and configuration files. Update application conf." />
+    <MESSAGE value="Update rep." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update rep." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/annspring/target/annspring-1.0-SNAPSHOT.jar!/com/spring/Main.class" />
-    <entry file="jar://$PROJECT_DIR$/annspring/target/annspring-1.0-SNAPSHOT.jar!/com/spring/Helpers.class" />
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/Helpers.java" />
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/Start.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="155" column="18" selection-start-line="155" selection-start-column="18" selection-end-line="155" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="171" column="24" lean-forward="true" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE-sources.jar!/org/springframework/aop/ClassFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/Main.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1081">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/LogManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.spring:xmlspring:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.spring:xmlspring:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.spring:xmlspring:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:4.3.5.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-aop:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.3.5.RELEASE/org.springframework:spring-expression:jar:4.3.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-beans:jar:4.3.5.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="143.0" y="215.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -940,27 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmlspring/src/main/java/com/spring/jdbc/JdbcContactDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmlspring/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/bean/MainBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xmlspring/src/main/java/com/spring/entity/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -972,13 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmlspring/src/main/java/com/spring/jdbc/MainJdbcXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1055,35 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/JdbcContactDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/MainJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/NamedQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1095,9 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1105,43 +1185,184 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/HibernateDao.java">
+    <entry file="file://$PROJECT_DIR$/xmlspring/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/MainJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/HibernateMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jdbc/JdbcContactDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/hibernate/HibernateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/bean/MainBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmlspring/src/main/resources/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmlspring/src/main/java/com/spring/jdbc/MainJdbcXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmlspring/src/main/java/com/spring/jdbc/JdbcContactDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/MainJpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml">
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/services/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/jpa/MainJpa.java">
+    <entry file="file://$PROJECT_DIR$/annspring/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.5.0.RELEASE/spring-data-commons-1.5.0.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.5.0.RELEASE/spring-data-commons-1.5.0.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/resources/app-conf.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="56" column="64" lean-forward="true" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/entity/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/services/HumanRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annspring/src/main/java/com/spring/datajpa/DataJpaMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

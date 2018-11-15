@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:tx="http://www.springframework.org/schema/tx"
-       xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
-       xmlns:util="http://www.springframework.org/schema/util" xmlns="http://www.springframework.org/schema/beans"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd   http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd   http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd   http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
     <!--Hibernate-->
     <!--<context:component-scan base-package="com.spring.hibernate"/>-->
     <!--<jdbc:embedded-database id="dataSource1" type="H2">-->
-        <!--<jdbc:script location=""/>-->
-        <!--<jdbc:script location=""/>-->
+    <!--<jdbc:script location=""/>-->
+    <!--<jdbc:script location=""/>-->
     <!--</jdbc:embedded-database>-->
 
     <!--<bean id="transactionManager1" class="org.springframework.orm.hibernate4.HibernateTransactionManager"-->
-          <!--p:sessionFactory-ref="sessionFactory"-->
+    <!--p:sessionFactory-ref="sessionFactory"-->
     <!--/>-->
     <!--<tx:annotation-driven transaction-manager="transactionManager1"/>-->
 
     <!--<bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"-->
-          <!--p:dataSource-ref="dataSource1"-->
-          <!--p:packagesToScan="com.spring.hibernate"-->
-          <!--p:hibernateProperties-ref="hibernateProperties"-->
+    <!--p:dataSource-ref="dataSource1"-->
+    <!--p:packagesToScan="com.spring.hibernate"-->
+    <!--p:hibernateProperties-ref="hibernateProperties"-->
     <!--/>-->
     <!--<util:properties id="hibernateProperties">-->
-        <!--<prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>-->
-        <!--<prop key="hibernate.max_fetch_depth">3</prop>-->
-        <!--<prop key="hibernate.jdbc.fetch_size">50</prop>-->
-        <!--<prop key="hibernate.jdbc.batch_size">10</prop>-->
-        <!--<prop key="hibernate.show_sql">true</prop>-->
-        <!--<prop key="hibernate.hbm2ddl.auto">create</prop>-->
+    <!--<prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>-->
+    <!--<prop key="hibernate.max_fetch_depth">3</prop>-->
+    <!--<prop key="hibernate.jdbc.fetch_size">50</prop>-->
+    <!--<prop key="hibernate.jdbc.batch_size">10</prop>-->
+    <!--<prop key="hibernate.show_sql">true</prop>-->
+    <!--<prop key="hibernate.hbm2ddl.auto">create</prop>-->
     <!--</util:properties>-->
 
     <!--JPA-->
@@ -45,7 +46,7 @@
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
         </property>
-        <property name="packagesToScan" value="com.spring.jpa"/>
+        <property name="packagesToScan" value="com.spring.datajpa"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
@@ -58,6 +59,11 @@
         </property>
     </bean>
 
-    <context:component-scan base-package="com.spring.jpa"/>
+    <context:component-scan base-package="com.spring.datajpa"/>
+
+    <!--Spring Data Jpa-->
+
+    <jpa:repositories base-package="com.spring.datajpa" entity-manager-factory-ref="emf"
+                      transaction-manager-ref="transactionManager"/>
 
 </beans>
