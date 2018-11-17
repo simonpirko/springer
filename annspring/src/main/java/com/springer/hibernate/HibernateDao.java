@@ -1,6 +1,6 @@
-package com.spring.hibernate;
+package com.springer.hibernate;
 
-import com.spring.hibernate.entity.User;
+import com.springer.hibernate.entity.User;
 import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate4.HibernateTemplate;
 import org.springframework.stereotype.Repository;

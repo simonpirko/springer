@@ -1,6 +1,6 @@
-package com.spring.datajpa.services;
+package com.springer.datajpa.services;
 
-import com.spring.datajpa.entity.Human;
+import com.springer.datajpa.entity.Human;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -19,11 +19,11 @@ public class HumanService {
         this.humanRepository = humanRepository;
     }
 
-    public void save(Human human) {
-        humanRepository.save(human);
+    public void save(Human h) {
+        humanRepository.save(h);
     }
 
-    @Transactional(readOnly = true)
+    //    @Transactional(readOnly = true) //SimpleJpaRepository annotated at @Transactional(readOnly = true)
     public List<Human> findAllHumans() {
         return (List<Human>) humanRepository.findAll();
     }

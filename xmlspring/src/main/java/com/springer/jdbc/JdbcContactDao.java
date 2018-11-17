@@ -1,4 +1,4 @@
-package com.spring.jdbc;
+package com.springer.jdbc;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 

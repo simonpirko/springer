@@ -1,4 +1,4 @@
-package com.spring.datajpa.entity;
+package com.springer.datajpa.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

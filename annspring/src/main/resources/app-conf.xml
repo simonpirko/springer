@@ -7,7 +7,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd   http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd   http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
 
     <!--Hibernate-->
-    <!--<context:component-scan base-package="com.spring.hibernate"/>-->
+    <!--<context:component-scan base-package="com.springer.hibernate"/>-->
     <!--<jdbc:embedded-database id="dataSource1" type="H2">-->
     <!--<jdbc:script location=""/>-->
     <!--<jdbc:script location=""/>-->
@@ -20,7 +20,7 @@
 
     <!--<bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"-->
     <!--p:dataSource-ref="dataSource1"-->
-    <!--p:packagesToScan="com.spring.hibernate"-->
+    <!--p:packagesToScan="com.springer.hibernate"-->
     <!--p:hibernateProperties-ref="hibernateProperties"-->
     <!--/>-->
     <!--<util:properties id="hibernateProperties">-->
@@ -46,7 +46,7 @@
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
         </property>
-        <property name="packagesToScan" value="com.spring.datajpa"/>
+        <property name="packagesToScan" value="com.springer.datajpa"/>
         <property name="jpaProperties">
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
@@ -59,11 +59,11 @@
         </property>
     </bean>
 
-    <context:component-scan base-package="com.spring.datajpa"/>
+    <context:component-scan base-package="com.springer.datajpa"/>
 
     <!--Spring Data Jpa-->
 
-    <jpa:repositories base-package="com.spring.datajpa" entity-manager-factory-ref="emf"
+    <jpa:repositories base-package="com.springer.datajpa" entity-manager-factory-ref="emf"
                       transaction-manager-ref="transactionManager"/>
 
 </beans>

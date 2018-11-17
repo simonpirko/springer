@@ -1,7 +1,7 @@
-package com.spring.datajpa;
+package com.springer.datajpa;
 
-import com.spring.datajpa.entity.Human;
-import com.spring.datajpa.services.HumanService;
+import com.springer.datajpa.entity.Human;
+import com.springer.datajpa.services.HumanService;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class DataJpaMain {
@@ -9,7 +9,6 @@ public class DataJpaMain {
         GenericXmlApplicationContext genericXmlApplicationContext = new GenericXmlApplicationContext();
         genericXmlApplicationContext.load("app-conf.xml");
         genericXmlApplicationContext.refresh();
-
         HumanService humanService = genericXmlApplicationContext.getBean("humanService", HumanService.class);
         Human human = new Human();
 

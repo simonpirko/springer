@@ -1,6 +1,6 @@
-package com.spring.bean;
+package com.springer.bean;
 
-import com.spring.entity.Runner;
+import com.springer.entity.Runner;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainBeanXml {

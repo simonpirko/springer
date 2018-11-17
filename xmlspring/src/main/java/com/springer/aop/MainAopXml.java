@@ -1,4 +1,4 @@
-package com.spring.aop;
+package com.springer.aop;
 
 import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

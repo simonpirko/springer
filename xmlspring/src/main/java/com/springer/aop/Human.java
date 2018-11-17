@@ -1,4 +1,4 @@
-package com.spring.aop;
+package com.springer.aop;
 
 public class Human {
     public void say(){

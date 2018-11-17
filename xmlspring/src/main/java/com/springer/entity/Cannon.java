@@ -1,4 +1,4 @@
-package com.spring.entity;
+package com.springer.entity;
 
 public class Cannon implements Printable {
     @Override

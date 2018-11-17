@@ -1,4 +1,4 @@
-package com.spring.hibernate.entity;
+package com.springer.hibernate.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;

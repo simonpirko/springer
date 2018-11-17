@@ -1,6 +1,6 @@
-package com.spring.hibernate;
+package com.springer.hibernate;
 
-import com.spring.hibernate.entity.User;
+import com.springer.hibernate.entity.User;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class HibernateMain {

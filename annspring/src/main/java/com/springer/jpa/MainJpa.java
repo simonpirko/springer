@@ -1,7 +1,7 @@
-package com.spring.jpa;
+package com.springer.jpa;
 
-import com.spring.jpa.entity.Person;
-import com.spring.jpa.services.PersonServiceImpl;
+import com.springer.jpa.entity.Person;
+import com.springer.jpa.services.PersonServiceImpl;
 import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class MainJpa {
