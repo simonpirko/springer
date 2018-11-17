@@ -9,6 +9,7 @@ public class DataJpaMain {
         GenericXmlApplicationContext genericXmlApplicationContext = new GenericXmlApplicationContext();
         genericXmlApplicationContext.load("app-conf.xml");
         genericXmlApplicationContext.refresh();
+
         HumanService humanService = genericXmlApplicationContext.getBean("humanService", HumanService.class);
         Human human = new Human();
 

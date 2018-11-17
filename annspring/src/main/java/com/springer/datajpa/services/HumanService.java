@@ -23,6 +23,7 @@ public class HumanService {
         humanRepository.save(human);
     }
 
+    @Transactional(readOnly = true)
     public List<Human> findAllHumans() {
         return (List<Human>) humanRepository.findAll();
     }
