@@ -1,13 +1,12 @@
 package com.springer.bean;
 
 import com.springer.entity.Runner;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 
-@ComponentScan({ "com.spring.*" })
-@PropertySource({ "classpath:application.properties" })
+@ComponentScan({"com.spring.*"})
+@PropertySource({"classpath:application.properties"})
 // @Configuration
 public class MainBean {
 

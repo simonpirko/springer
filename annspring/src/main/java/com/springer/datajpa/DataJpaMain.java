@@ -19,6 +19,7 @@ public class DataJpaMain {
         human.setId(2L);
         human.setName("Denis");
         human.setAge(23);
+
         humanService.save(human);
 
         humanService.findAllHumans().forEach(System.out::println);
