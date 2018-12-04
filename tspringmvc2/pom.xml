@@ -6,6 +6,7 @@
     <groupId>com.tspringmvc2</groupId>
     <artifactId>tspringmvc2</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -48,7 +49,9 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.4.12.v20180830</version>
                 <configuration>
-                    <webApp>/</webApp>
+                    <webApp>
+                        <contextPath>/</contextPath>
+                    </webApp>
                     <httpConnector>
                         <port>9999</port>
                     </httpConnector>
