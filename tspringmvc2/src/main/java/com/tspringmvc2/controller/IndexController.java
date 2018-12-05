@@ -19,7 +19,7 @@ public class IndexController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String index(Model model) {
-        model.addAttribute("users", userService.getAllUsers());
+        model.addAttribute("user", userService.getAllUsers());
         return "index";
     }
 }

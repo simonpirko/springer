@@ -1,10 +1,15 @@
 package com.tspringmvc2.entity;
 
+import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 public class User implements Serializable {
+
     private int id;
+
+    @Size(min = 3, message = "Enter valid name!")
     private String name;
+
     private int age;
 
     public User() {

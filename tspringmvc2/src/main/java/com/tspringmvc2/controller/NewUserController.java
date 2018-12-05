@@ -5,9 +5,11 @@ import com.tspringmvc2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.annotation.Validated;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+
+import javax.validation.Valid;
 
 @Controller
 @RequestMapping(path = "/new")
@@ -26,7 +28,10 @@ public class NewUserController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public String addUser(@Validated User user) {
+    public String addUser(@Valid User user, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            return "redirect:/new";
+        }
         userService.addUser(user);
         return "redirect:/";
     }
