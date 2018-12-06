@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(path = "/")
+@RequestMapping(path = "/", name = "IndexController")
 public class IndexController {
-    private UserService userService;
+  private UserService userService;
 
-    @Autowired
-    public void setUserService(UserService userService) {
-        this.userService = userService;
-    }
+  @Autowired
+  public void setUserService(UserService userService) {
+    this.userService = userService;
+  }
 
-    @RequestMapping(method = RequestMethod.GET)
-    public String index(Model model) {
-        model.addAttribute("user", userService.getAllUsers());
-        return "index";
-    }
+  @RequestMapping(method = RequestMethod.GET)
+  public String index(Model model) {
+    model.addAttribute("user", userService.getAllUsers());
+    return "index";
+  }
 }

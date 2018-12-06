@@ -1,17 +1,17 @@
 package com.springer.entity;
 
 public class Runner {
-    private Robot robot;
+  private Robot robot;
 
-    public void setRobot(Robot robot) {
-        this.robot = robot;
-    }
+  public void setRobot(Robot robot) {
+    this.robot = robot;
+  }
 
-    public void speakRobot() {
-        robot.sayHello();
-    }
+  public void speakRobot() {
+    robot.sayHello();
+  }
 
-    public void destroy() {
-        System.out.println("Destroy method of Runner.class");
-    }
+  public void destroy() {
+    System.out.println("Destroy method of Runner.class");
+  }
 }

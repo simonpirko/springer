@@ -3,13 +3,13 @@ package com.springer.jdbc;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class JdbcContactDao {
-    private JdbcTemplate jdbcTemplate;
+  private JdbcTemplate jdbcTemplate;
 
-    public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
-        this.jdbcTemplate = jdbcTemplate;
-    }
+  public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+    this.jdbcTemplate = jdbcTemplate;
+  }
 
-    public void save() {
-        System.out.println("JDBC");
-    }
+  public void save() {
+    System.out.println("JDBC");
+  }
 }

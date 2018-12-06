@@ -14,25 +14,25 @@ import javax.validation.Valid;
 @Controller
 @RequestMapping(path = "/new")
 public class NewUserController {
-    private UserService userService;
+  private UserService userService;
 
-    @Autowired
-    public void setUserService(UserService userService) {
-        this.userService = userService;
-    }
+  @Autowired
+  public void setUserService(UserService userService) {
+    this.userService = userService;
+  }
 
-    @RequestMapping(method = RequestMethod.GET)
-    public String newUser(Model model) {
-        model.addAttribute(new User());
-        return "new";
-    }
+  @RequestMapping(method = RequestMethod.GET)
+  public String newUser(Model model) {
+    model.addAttribute(new User());
+    return "new";
+  }
 
-    @RequestMapping(method = RequestMethod.POST)
-    public String addUser(@Valid User user, BindingResult bindingResult) {
-        if (bindingResult.hasErrors()) {
-            return "redirect:/new";
-        }
-        userService.addUser(user);
-        return "redirect:/";
+  @RequestMapping(method = RequestMethod.POST)
+  public String addUser(@Valid User user, BindingResult bindingResult) {
+    if (bindingResult.hasErrors()) {
+      return "redirect:/new";
     }
+    userService.addUser(user);
+    return "redirect:/";
+  }
 }
