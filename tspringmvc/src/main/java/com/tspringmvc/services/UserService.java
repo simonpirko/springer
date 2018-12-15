@@ -7,9 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 //UserDao
-@Service
+//@Service
 public class UserService {
-    public static List<User> userList = new ArrayList<>();
+    private static List<User> userList = new ArrayList<>();
 
     public List<User> findAll(){
         return userList;
