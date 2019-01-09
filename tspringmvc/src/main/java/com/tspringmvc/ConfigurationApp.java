@@ -7,7 +7,8 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class ConfigurationApp {
   @Bean
-  public UserService userService(){
+  public UserService userService() {
     return new UserService();
   }
+
 }
